@@ -6,7 +6,7 @@ description: "Write a bit about python here."
 ---
 
 # What is python?
-
+Brief description of python here
 ---
 
 ## Getting started
