@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Matplotlib
-nav_order: 2
+nav_order: 3
 ---
 
 # Matplotlib
