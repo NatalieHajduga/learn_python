@@ -4,16 +4,15 @@ title: Learn_python
 nav_order: 1
 has_children: true
 ---
-
-# Navigation
-# Python For Noobs
-
-Write some stuff about python here
-
-
 # [header1](header1.md) 
 ## [header1](header1.md) 
 ### [header1](header1.md) 
+
+# Home
+
+## What is python?
+
+Write some stuff about python here
 
 ## How to download and install Python
 
@@ -21,11 +20,6 @@ Write some stuff about python here
 
 ## Intro to Python
 
-## Pandas
-
-## Matplotlib
-
-## Seaborn
 
 ### Scatterplot
 
