@@ -17,10 +17,10 @@ Brief introduction to the world of pandas
 
 ### Joins 
 
--inner
--outer
--left
--right
+* inner
+* outer
+* left
+* right
 
 
 
