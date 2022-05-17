@@ -1,9 +1,35 @@
----
-layout: default
-title: Navigation
-parent: Tests
-has_children: true
----
++-- ..
+|-- (Jekyll files)
+|
+|-- docs
+|   |-- Pandas
+|   |   |-- index.md  (parent page)
+|   |   |-- buttons.md
+|   |   |-- code.md
+|   |   |-- labels.md
+|   |   |-- tables.md
+|   |   +-- typography.md
+|   |
+|   |-- Matplotlib
+|   |   |-- index.md      (parent page)
+|   |   |-- color.md
+|   |   |-- layout.md
+|   |   |-- responsive-modifiers.md
+|   |   +-- typography.md
+|   |
+|   |-- Seaborn
+|   |   |-- index.md  (parent page)
+|   |   |-- buttons.md
+|   |   |-- code.md
+|   |   |-- labels.md
+|   |   |-- tables.md
+|   |   +-- typography.md
+|   |
+|   |-- (other md files, pages with no children)
+|   +-- ..
+|
+|-- (Jekyll files)
++-- ..
 
 # Navigation
 # Python For Noobs
