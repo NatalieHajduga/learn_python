@@ -3,7 +3,9 @@ layout: default
 title: Pandas
 parent: Learn_python
 nav_order: 1
+has_children: true
 ---
+
 # Pandas
 this is text under it from main title
 
