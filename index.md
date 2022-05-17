@@ -1,3 +1,11 @@
+---
+layout: default
+title: Navigation
+parent: Tests
+has_children: true
+---
+
+# Navigation
 # Python For Noobs
 
 Write some stuff about python here
