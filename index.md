@@ -6,10 +6,9 @@ description: "Write a bit about python here."
 ---
 
 # What is python?
-{: .fs-9 }
 
-Bried introduction to python here.
-{: .fs-6 .fw-300 }
+
+Brief introduction to python here.
 
 ---
 
