@@ -11,11 +11,16 @@ Write a bit about pandas
 ---
 
 ## Introduction to Pandas
-Introduction to pandas 
+Brief introduction to the world of pandas 
 
 ---
 
 ### Joins 
+
+-inner
+-outer
+-left
+-right
 
 
 
