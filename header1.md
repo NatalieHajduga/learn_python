@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pandas
+parent: Learn_python
+nav_order: 1
+---
 # Pandas
 this is text under it from main title
 
