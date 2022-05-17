@@ -1,24 +1,20 @@
 ---
 layout: default
-title: Learn_python
+title: Home
 nav_order: 1
-has_children: true
+description: "Write a bit about python here."
 ---
-# [header1](header1.md) 
-## [header1](header1.md) 
-### [header1](header1.md) 
 
-# Home
+# What is python?
 
-## What is python?
+---
 
-Write some stuff about python here
+## Getting started
 
-## How to download and install Python
+### Downloading and installing python
+### Which IDE should i use?
+### Setting your home directory
 
-## Which IDE should i use?
-
-## Intro to Python
 
 
 ### Scatterplot
