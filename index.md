@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# Python For Noobs
 
-You can use the [editor on GitHub](https://github.com/NatalieHajduga/learn_python/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Write some stuff about python here
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How to download and install Python
 
-### Markdown
+## Which IDE should i use?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Intro to Python
 
-```markdown
-Syntax highlighted code block
+## Pandas
 
-# Header 1
-## Header 2
-### Header 3
+## Matplotlib
 
-- Bulleted
-- List
+## Seaborn
 
-1. Numbered
-2. List
+### Scatterplot
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+Seaborn is an library that extends Matplotlib to create highly sofisticated statistical visulisations from Pandas data structures using minimal code. Below you will see examples of a heatmap, and a subset of histograms (For more examples check out Seaborn:statistical data visulisation example gallery at https://seaborn.pydata.org/examples/index.html)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NatalieHajduga/learn_python/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<p align="center"> <img src="https://user-images.githubusercontent.com/94447127/168817370-1c623b25-cfe6-4906-bf95-d974da18c311.png" width="400" height="400"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/94447127/168819351-4791adae-1242-4ad8-ac40-60e22364b445.png" width="450" height="350"> </p>
 
-### Support or Contact
+### Scatterplot
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  `scatterplot()` is used to plot data and visualise the relationship of the values in the form of a scatter, with each point in the scatter representative of an observation in the dataset.
+  
+ In order to create a seaborn scatterplot in python you will need to import the following packages:
+  
+  ```python
+  import seaborn as sns
+  import matplotlib.pyplot as plt
+   ```
+ Now we can take the data of 10 large dogs (in age = years, weight = kg) and create a pandas datafames:
+  ```python
+  Years = [1, 10, 9, 3, 5, 4, 1, 6, 4, 6,]
+  Weight = [39, 45, 32, 58, 44, 41, 47, 52, 55, 32]
+  ```
+ These df can now be plotted onto a scatter to compare how age may relate to a dogs weight across large dog breeds:
+  
+  ```python
+  sns.scatterplot(x = Years,
+                  y = Weight)
+  
+  plt.show()
+  ```
+  
+  
+  
+### Countplot
+  `countplot()` takes a categorical list and returns bars representative of the number of list entries per category.
+  
+  
