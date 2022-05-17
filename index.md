@@ -2,6 +2,11 @@
 
 Write some stuff about python here
 
+
+# [header1](header1.md) 
+## [header1](header1.md) 
+### [header1](header1.md) 
+
 ## How to download and install Python
 
 ## Which IDE should i use?
