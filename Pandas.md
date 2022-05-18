@@ -6,7 +6,7 @@ has_children: true
 ---
 
 # Pandas
-Write a bit about pandas
+Write a bit about pandas and other kool stuff
 
 ---
 
